@@ -1,0 +1,21 @@
+/* Estilos personalizados da página de login */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #3730a3; /* tom escuro de índigo */
+}
+
+input:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+}
+
+form {
+  margin-top: 1rem;
+}

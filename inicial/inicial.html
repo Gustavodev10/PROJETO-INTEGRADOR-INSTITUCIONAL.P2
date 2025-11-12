@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click de Respeito - Combate ao Cyberbullying</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="./inicial.css">
+  <link rel="shortcut icon" type="imagex/png" href="./images/icon.ico">
+</head>
+
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white shadow-lg">
+    <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Clic de Respeito</h1>
+      <button id="menu-toggle" class="focus:outline-none">
+        <i data-feather="menu"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu móvel -->
+  <nav id="mobile-menu" class="hidden bg-indigo-600">
+    <div class="container mx-auto px-4 py-2 flex flex-col space-y-2">
+      <a href="#about" class="text-white hover:text-indigo-200">Sobre</a>
+      <a href="#cyberbullying" class="text-white hover:text-indigo-200">Cyberbullying</a>
+      <a href="#fatos" class="text-white hover:text-indigo-200">Fatos Reais</a>
+      <a href="#direitos" class="text-white hover:text-indigo-200">Direitos</a>
+      <a href="#ajuda" class="text-white hover:text-indigo-200">Ajuda</a>
+      <a href="#quiz" class="text-white hover:text-indigo-200">Quiz</a>
+    </div>
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <main class="container mx-auto px-4 py-8 flex-1 flex flex-col space-y-16">
+
+    <!-- SOBRE -->
+    <section id="about" class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Sobre o Projeto</h2>
+      <p class="text-gray-600 mb-3">
+        O <strong>Click de Respeito</strong> é uma iniciativa educacional e social dedicada à conscientização
+        sobre o <strong>impacto do cyberbullying</strong> e à promoção de uma cultura de empatia e respeito
+        no ambiente digital.
+      </p>
+      <p class="text-gray-600 mb-3">
+        Criado por estudantes e educadores, o projeto une <strong>tecnologia e cidadania digital</strong>,
+        oferecendo conteúdos educativos, dados reais e um quiz interativo para testar seu conhecimento.
+      </p>
+      <p class="text-gray-600">
+        Nosso objetivo é transformar o comportamento online, promovendo o uso consciente da internet
+        e ajudando vítimas a encontrarem apoio e informação.
+      </p>
+    </section>
+
+    <!-- CYBERBULLYING -->
+    <section id="cyberbullying" class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">O que é Cyberbullying?</h2>
+      <p class="text-gray-600 mb-3">
+        O <strong>cyberbullying</strong> é o ato de humilhar, ofender, intimidar ou expor alguém de forma
+        agressiva na internet. Ele pode acontecer em redes sociais, jogos, fóruns e aplicativos de mensagens.
+      </p>
+      <p class="text-gray-600 mb-3">
+        Diferente do bullying tradicional, o cyberbullying acontece 24 horas por dia, podendo alcançar
+        milhares de pessoas em segundos e causar danos psicológicos profundos e duradouros.
+      </p>
+      <p class="text-gray-600">
+        Combater o cyberbullying é responsabilidade de todos — denunciar, apoiar as vítimas e promover
+        um ambiente digital mais respeitoso é essencial.
+      </p>
+    </section>
+
+    <!-- FATOS REAIS -->
+    <section id="fatos" class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Fatos Reais</h2>
+      <ul class="list-disc pl-6 text-gray-600 space-y-2">
+        <li>Segundo a UNICEF, <strong>1 em cada 3 jovens</strong> já sofreu cyberbullying no Brasil.</li>
+        <li>Mais de 40% das vítimas relatam que o bullying virtual começou com uma brincadeira.</li>
+        <li>Durante a pandemia, casos de exposição íntima cresceram mais de 60% nas redes sociais.</li>
+        <li>Pesquisas mostram que vítimas de cyberbullying têm o dobro de risco de desenvolver depressão.</li>
+      </ul>
+    </section>
+
+    <!-- DIREITOS -->
+    <section id="direitos" class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Direitos de quem sofre Cyberbullying</h2>
+      <ul class="list-disc pl-6 text-gray-600 space-y-2">
+        <li>A <strong>Constituição Federal</strong> protege o direito à honra, imagem e dignidade.</li>
+        <li>O <strong>Marco Civil da Internet</strong> (Lei nº 12.965/2014) garante a remoção de conteúdos ofensivos.</li>
+        <li>A <strong>Lei nº 13.185/2015</strong> institui o Programa de Combate à Intimidação Sistemática (Bullying).</li>
+        <li>As vítimas podem registrar boletim de ocorrência em delegacias especializadas em crimes cibernéticos.</li>
+      </ul>
+    </section>
+
+    <!-- AJUDA -->
+    <section id="ajuda" class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Onde buscar ajuda?</h2>
+      <p class="text-gray-600 mb-3">Se você ou alguém que conhece está sofrendo cyberbullying, procure ajuda:</p>
+      <ul class="space-y-3 text-gray-600">
+        <li><strong>Polícia Militar:</strong> Ligue <span class="text-indigo-700 font-bold">190</span> em caso de emergência.</li>
+        <li><strong>Polícia Civil:</strong> Vá a uma delegacia de crimes cibernéticos.</li>
+        <li><strong>SaferNet:</strong> Denuncie anonimamente no site 
+          <a href="https://www.safernet.org.br" target="_blank" class="text-indigo-600 underline">www.safernet.org.br</a>
+        </li>
+        <li><strong>CVV:</strong> Atendimento gratuito e sigiloso — Ligue <span class="text-indigo-700 font-bold">188</span> ou acesse 
+          <a href="https://cvv.org.br" target="_blank" class="text-indigo-600 underline">cvv.org.br</a>
+        </li>
+      </ul>
+    </section>
+
+  <!-- QUIZ E CYBERBOT -->
+    <section id="quiz" class="bg-white p-6 rounded-lg shadow-md text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Teste seu conhecimento</h2>
+      <p class="text-gray-600 mb-6">Você sabe tudo sobre cyberbullying e segurança digital? Faça o teste e descubra!</p>
+      <div class="flex justify-center gap-4">
+  
+  <a href="../chatbot_cyberbullying/chatbot.html" 
+     class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-bold transition duration-300">
+     Iniciar CyberBot
+  </a>
+</div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-indigo-700 text-white text-center py-4">
+    <p>© 2025 Click de Respeito | Desenvolvido para conscientizar sobre o respeito digital</p>
+  </footer>
+
+  <script src="./inicial.js"></script>
+</body>
+</html>
